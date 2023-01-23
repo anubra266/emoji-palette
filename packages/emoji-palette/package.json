@@ -17,8 +17,7 @@
     "analyze": "size-limit --why"
   },
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
   "engines": {
     "node": ">=10"
