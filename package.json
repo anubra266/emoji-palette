@@ -1,0 +1,12 @@
+{
+  "name": "palette",
+  "version": "0.0.1",
+  "description": "get color palette from emojis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Abraham A. <anubra266>",
+  "license": "MIT"
+}

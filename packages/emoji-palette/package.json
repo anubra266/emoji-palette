@@ -1,0 +1,54 @@
+{
+  "name": "emoji-palette",
+  "description": "get color palette from emojis",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/emoji-palette.esm.js",
+  "typings": "dist/index.d.ts",
+  "author": "Abraham A. <anubra266>",
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build",
+    "size": "size-limit",
+    "analyze": "size-limit --why"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "size-limit": [
+    {
+      "path": "dist/emoji-palette.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/emoji-palette.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "tsdx": "^0.14.1"
+  }
+}
