@@ -36,11 +36,11 @@ jobs:
         id: pages
         uses: actions/configure-pages@v2
       - name: Install dependencies
-        run: pnpm i
+        run: yarn install
         working-directory: ${{ env.BUILD_PATH }}
       - name: Build with Vite
         run: |
-          npx vite build \
+          yarn vite build \
             --site "${{ steps.pages.outputs.origin }}" \
             --base "${{ steps.pages.outputs.base_path }}"
         working-directory: ${{ env.BUILD_PATH }}
