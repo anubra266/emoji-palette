@@ -39,7 +39,7 @@ jobs:
         uses: actions/configure-pages@v2
       - name: Build with Vite
         run: |
-          pnpm vite build \
+          pnpm --filter site build \
             --site "${{ steps.pages.outputs.origin }}" \
             --base "${{ steps.pages.outputs.base_path }}"
         working-directory: ${{ env.BUILD_PATH }}
