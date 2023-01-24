@@ -39,9 +39,7 @@ jobs:
         uses: actions/configure-pages@v2
       - name: Build with Vite
         run: |
-          pnpm --filter site build \
-            --site "${{ steps.pages.outputs.origin }}" \
-            --base "${{ steps.pages.outputs.base_path }}"
+          pnpm --filter site build
         working-directory: ${{ env.BUILD_PATH }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
