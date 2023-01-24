@@ -50,6 +50,15 @@ yarn add emoji-palette
 pnpm add emoji-palette
 ```
 
+<div display="flex">
+
+<img width="472" alt="CleanShot 2023-01-24 at 14 50 44@2x" src="https://user-images.githubusercontent.com/30869823/214312255-27b2c925-99f9-4e7e-b7a9-4375d37f7757.png">
+<img width="463" alt="CleanShot 2023-01-24 at 14 50 29@2x" src="https://user-images.githubusercontent.com/30869823/214312270-3692ae0d-7a92-4eab-939f-015ce78c7a04.png">
+<img width="461" alt="CleanShot 2023-01-24 at 14 50 15@2x" src="https://user-images.githubusercontent.com/30869823/214312282-45fb1271-43cb-411a-ac07-b51956407fad.png">
+
+
+</div>
+
 ## About
 
 Came across some tweets by [Shayan](https://twitter.com/imsh4yy?s=21&t=ETlRoiFLQAAJRfdOAWUkEg) about LogSnag. He put up this amazing UI where gradients were formed based on a selected emoji. I scourged the comments for any hint on how he achieved this, found none, so I decided to create mine.
