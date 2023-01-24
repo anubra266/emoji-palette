@@ -30,17 +30,16 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Install
+        uses: ./.github/composite-actions/install
       - name: Setup Node
         uses: actions/setup-node@v3
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v2
-      - name: Install dependencies
-        run: yarn install
-        working-directory: ${{ env.BUILD_PATH }}
       - name: Build with Vite
         run: |
-          yarn vite build \
+          pnpm vite build \
             --site "${{ steps.pages.outputs.origin }}" \
             --base "${{ steps.pages.outputs.base_path }}"
         working-directory: ${{ env.BUILD_PATH }}
