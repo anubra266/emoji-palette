@@ -77,4 +77,4 @@ const dominantColor = palette[Math.floor(palette.length / 2)];
 
 Colors are returned as `rgb` strings.
 
-You can see a live demo [here](anubra266.github.io/emoji-palette/)
+You can see a live demo [here](https://anubra266.github.io/emoji-palette/)
