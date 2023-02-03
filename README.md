@@ -74,7 +74,7 @@ From this, we're able to move through the pixels in the image to get all the rel
 // import generatePalette
 import { generatePalette } from "emoji-palette";
 
-// Pass your emoji to this methos
+// Pass your emoji to this method
 const palette = generatePalette("👍");
 ```
 
