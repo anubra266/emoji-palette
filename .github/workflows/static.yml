@@ -36,7 +36,7 @@ jobs:
         uses: actions/setup-node@v3
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v2
+        uses: actions/configure-pages@v3
       - name: Build with Vite
         run: |
           pnpm --filter site build
