@@ -27,7 +27,7 @@ importers:
       emoji-palette: workspace:*
       react: ^18.2.0
       react-dom: ^18.2.0
-      typescript: ^4.9.3
+      typescript: ^5.0.0
       vite: ^4.0.0
     dependencies:
       '@emoji-mart/data': 1.1.2
@@ -41,7 +41,7 @@ importers:
       '@types/react-dom': 18.0.10
       '@vitejs/plugin-react': 3.0.1_vite@4.0.4
       emoji-palette: link:../packages/emoji-palette
-      typescript: 4.9.4
+      typescript: 5.2.2
       vite: 4.0.4
 
 packages:
@@ -7104,9 +7104,9 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript/4.9.4:
-    resolution: {integrity: sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg==}
-    engines: {node: '>=4.2.0'}
+  /typescript/5.2.2:
+    resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==}
+    engines: {node: '>=14.17'}
     hasBin: true
     dev: true
 
