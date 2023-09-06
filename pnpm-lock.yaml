@@ -8,12 +8,12 @@ importers:
   packages/emoji-palette:
     specifiers:
       '@types/jest': ^29.2.6
-      '@types/node': ^18.11.18
+      '@types/node': ^20.0.0
       tsdx: ^0.14.1
     devDependencies:
       '@types/jest': 29.2.6
-      '@types/node': 18.11.18
-      tsdx: 0.14.1_@types+node@18.11.18
+      '@types/node': 20.5.9
+      tsdx: 0.14.1_@types+node@20.5.9
 
   site:
     specifiers:
@@ -1695,7 +1695,7 @@ packages:
       '@jest/schemas': 29.0.0
       '@types/istanbul-lib-coverage': 2.0.4
       '@types/istanbul-reports': 3.0.1
-      '@types/node': 18.11.18
+      '@types/node': 20.5.9
       '@types/yargs': 17.0.20
       chalk: 4.1.2
     dev: true
@@ -1871,7 +1871,7 @@ packages:
   /@types/graceful-fs/4.1.6:
     resolution: {integrity: sha512-Sig0SNORX9fdW+bQuTEovKj3uHcUL6LQKbCrrqb1X7J6/ReAbhCXRAhc+SMejhLELFj2QcyuxmUooZ4bt5ReSw==}
     dependencies:
-      '@types/node': 18.11.18
+      '@types/node': 20.5.9
     dev: true
 
   /@types/istanbul-lib-coverage/2.0.4:
@@ -1919,8 +1919,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/node/18.11.18:
-    resolution: {integrity: sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==}
+  /@types/node/20.5.9:
+    resolution: {integrity: sha512-PcGNd//40kHAS3sTlzKB9C9XL4K0sTup8nbG5lC14kzEteTNuAFh9u5nA0o5TWnSG2r/JNPRXFVcHJIIeRlmqQ==}
     dev: true
 
   /@types/normalize-package-data/2.4.1:
@@ -1956,7 +1956,7 @@ packages:
   /@types/resolve/1.17.1:
     resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}
     dependencies:
-      '@types/node': 18.11.18
+      '@types/node': 20.5.9
     dev: true
 
   /@types/scheduler/0.16.2:
@@ -4979,7 +4979,7 @@ packages:
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@jest/types': 29.3.1
-      '@types/node': 18.11.18
+      '@types/node': 20.5.9
       chalk: 4.1.2
       ci-info: 3.7.1
       graceful-fs: 4.2.10
@@ -6223,7 +6223,7 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup-plugin-sourcemaps/0.6.3_lodjpuld6c4l4dvpfhlb64xnkm:
+  /rollup-plugin-sourcemaps/0.6.3_ztrcwtf2vsw242eaxj3j6tqk6q:
     resolution: {integrity: sha512-paFu+nT1xvuO1tPFYXGe+XnQvg4Hjqv/eIhG8i5EspfYYPBKL57X7iVbfv55aNVASg3dzWvES9dmWsL2KhfByw==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
@@ -6234,7 +6234,7 @@ packages:
         optional: true
     dependencies:
       '@rollup/pluginutils': 3.1.0_rollup@1.32.1
-      '@types/node': 18.11.18
+      '@types/node': 20.5.9
       rollup: 1.32.1
       source-map-resolve: 0.6.0
     dev: true
@@ -6279,7 +6279,7 @@ packages:
     hasBin: true
     dependencies:
       '@types/estree': 1.0.0
-      '@types/node': 18.11.18
+      '@types/node': 20.5.9
       acorn: 7.4.1
     dev: true
 
@@ -6953,7 +6953,7 @@ packages:
       strip-bom: 3.0.0
     dev: true
 
-  /tsdx/0.14.1_@types+node@18.11.18:
+  /tsdx/0.14.1_@types+node@20.5.9:
     resolution: {integrity: sha512-keHmFdCL2kx5nYFlBdbE3639HQ2v9iGedAFAajobrUTH2wfX0nLPdDhbHv+GHLQZqf0c5ur1XteE8ek/+Eyj5w==}
     engines: {node: '>=10'}
     hasBin: true
@@ -7004,7 +7004,7 @@ packages:
       progress-estimator: 0.2.2
       regenerator-runtime: 0.13.11
       rollup: 1.32.1
-      rollup-plugin-sourcemaps: 0.6.3_lodjpuld6c4l4dvpfhlb64xnkm
+      rollup-plugin-sourcemaps: 0.6.3_ztrcwtf2vsw242eaxj3j6tqk6q
       rollup-plugin-terser: 5.3.1_rollup@1.32.1
       rollup-plugin-typescript2: 0.27.3_u7o3wpaaa4xpcuuxlpndi4hgqe
       sade: 1.8.1

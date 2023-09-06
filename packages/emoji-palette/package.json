@@ -48,7 +48,7 @@
   ],
   "devDependencies": {
     "@types/jest": "^29.2.6",
-    "@types/node": "^18.11.18",
+    "@types/node": "^20.0.0",
     "tsdx": "^0.14.1"
   }
 }
