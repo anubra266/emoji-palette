@@ -9,12 +9,17 @@ import { transparentize } from "color2k";
 
 function App() {
   const [theme, setTheme] = useState<"light" | "dark">("dark");
-  const [emoji, setEmoji] = useState("👍");
-  const palette = generatePalette(emoji);
-  const dominantColor = palette[Math.floor(palette.length / 2)];
+  const [emoji, setEmoji] = useState<string>("👍");
+  const palette: string[] = generatePalette(emoji);
+  const dominantColor: string = palette[Math.floor(palette.length / 2)];
 
   function switchColorMode() {
     setTheme((prev) => (prev === "light" ? "dark" : "light"));
+  }
+
+  function copyColorToClipboard(color: string) {
+    navigator.clipboard.writeText(color);
+    alert(`Color "${color}" copied to clipboard!`);
   }
 
   return (
@@ -49,14 +54,20 @@ function App() {
           theme={theme}
           onEmojiSelect={(data: any) => setEmoji(data.native)}
         />
+                  <br />
+
+        <span>click to copy the color</span>
+          
         <div className="palette">
-          {palette.map((color) => (
+          {palette.map((color, index) => (
             <div
+              key={index}
               className="color"
               style={{
                 background: color,
               }}
-            />
+              onClick={() => copyColorToClipboard(color)}
+            ></div>
           ))}
         </div>
       </div>
