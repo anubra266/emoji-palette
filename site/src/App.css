@@ -15,7 +15,7 @@
   gap: 16px;
 }
 
-.nav button {
+.nav button, .nav .btn {
   all: unset;
   cursor: pointer;
   background-color: #111;
@@ -24,11 +24,11 @@
   border-radius: 8px;
 }
 
-.nav button:hover {
+.nav button:hover, .nav .btn:hover {
   background-color: rgb(59, 52, 52);
 }
 
-.dark .nav button {
+.dark .nav button, .dark .nav .btn {
   background-color: rgb(50, 47, 47);
 }
 
