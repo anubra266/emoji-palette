@@ -36,6 +36,9 @@ function App() {
           <button onClick={switchColorMode}>
             Switch to {theme === "light" ? "Dark" : "Light"} Mode
           </button>
+          <a className="btn" target="_blank" href="https://github.com/anubra266/emoji-palette">
+            Github
+          </a>
         </div>
         <div
           className="emoji-wrapper"
